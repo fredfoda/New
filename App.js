@@ -1,6 +1,8 @@
-import Quiz from './src/pages/Quiz'
-function App(){
-  return(
+import Quiz from './src/pages/Quiz';
+
+
+function App() {
+  return (
     <Quiz />
   );
 }
