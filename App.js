@@ -1,11 +1,15 @@
-import "./App.css";
+// React, componentes, estaticos
 
-export default function App() {
+
+import "./App.css";
+import Welcome from "./componentes/Welcome";
+
+function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <div className="App">
+      <h1>Quiz de Programação</h1>
+      <Welcome />
+    </div>
   );
 }
 
